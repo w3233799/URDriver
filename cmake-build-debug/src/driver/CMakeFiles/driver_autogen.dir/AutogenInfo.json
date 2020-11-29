@@ -1,0 +1,78 @@
+{
+	"BUILD_DIR" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/driver_autogen",
+	"CMAKE_BINARY_DIR" : "/home/li/workspace/UrDriver_li/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/li/workspace/UrDriver_li/src/driver",
+	"CMAKE_EXECUTABLE" : "/home/li/sorft/CLion-2020.1.2/clion-2020.1.2/bin/cmake/linux/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/li/workspace/UrDriver_li",
+	"HEADERS" : 
+	[
+		[
+			"/home/li/workspace/UrDriver_li/src/driver/URDriver.h",
+			"MU",
+			"EWIEGA46WW/moc_URDriver.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/driver_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/driver_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"driver_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver",
+		"/home/li/workspace/UrDriver_li/src/driver",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include/QtCore",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/mkspecs/linux-g++",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include/QtGui",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include/QtWidgets",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include/QtNetwork",
+		"/home/li/workspace/UrDriver_li/3rdparty/qt/include/QtOpenGL",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/CMakeFiles/driver_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/li/workspace/UrDriver_li/3rdparty/qt/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/li/workspace/UrDriver_li/3rdparty/qt/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/CMakeFiles/driver_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/li/workspace/UrDriver_li/src/driver/URDriver.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
