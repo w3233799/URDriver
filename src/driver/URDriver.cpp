@@ -58,3 +58,14 @@ void URDriver::movej(double *joints, double a, double v) {
     //通过socket发送给UR的上位机
     socket.write(data.toUtf8());
 }
+
+void URDriver::movel(double *poses, double a, double v) {
+    cout << "joints: ";
+    for (int i=0;i<6;++i) {
+        cout <<"   "<< poses[i];
+    }cout<<endl;
+//   拼接字符串发给机械臂的上位机，这时采取创建一个拼接字符串的工具类，方便以后的更改
+    QString data=urScript.loadMovelScript(poses, a, v);
+    //通过socket发送给UR的上位机
+    socket.write(data.toUtf8());
+}

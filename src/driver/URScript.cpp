@@ -28,3 +28,20 @@ QString URScript::loadMovejScript(double *joints, double a, double v) {
     data += ", t=0, r=0)";
     return data;
 }
+
+QString URScript::loadMovelScript(double *poses, double a, double v) {
+//Example command: movel(p[0.2,0.3,0.5,0,0,3.14],a=1.2, v=0.25, t=0, r=0)
+    QString data = "movel(p[";
+    for (int i = 0; i < 6; ++i) {
+        data += QString::number(poses[i]);
+        if (i < 5) {
+            data += ",";
+        }
+    }
+    data += "],a=";
+    data += QString::number(a);
+    data += ", v=";
+    data += QString::number(v);
+    data += ", t=0, r=0)";
+    return data;
+}

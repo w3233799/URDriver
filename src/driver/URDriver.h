@@ -59,6 +59,9 @@ public:
 
     //movej移动
     void movej(double *joints,double a=1.2,double v=1.05);
+
+    //movel移动
+    void movel(double *poses,double a=1.25,double v=0.25);
 };
 
 

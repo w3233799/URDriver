@@ -66,6 +66,9 @@ public:
     // movej函数
     void movej();
 
+    // movel函数
+    void movel();
+
 };
 
 

@@ -12,6 +12,8 @@ public:
     URScript();
     ~URScript();
     QString loadMovejScript(double *joints, double a, double v);
+
+    QString loadMovelScript(double *poses, double a, double v);
 };
 
 

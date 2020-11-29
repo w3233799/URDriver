@@ -106,20 +106,6 @@ limits.h
 new
 -
 
-../3rdparty/qt/include/QtCore/qcoreapplication.h
-QtCore/qglobal.h
--
-QtCore/qstring.h
--
-QtCore/qobject.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qscopedpointer.h
--
-
 ../3rdparty/qt/include/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -166,10 +152,6 @@ list
 map
 -
 utility
--
-
-../3rdparty/qt/include/QtCore/qeventloop.h
-QtCore/qobject.h
 -
 
 ../3rdparty/qt/include/QtCore/qfeatures.h
@@ -786,20 +768,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-../3rdparty/qt/include/QtGui/qguiapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtGui/qinputmethod.h
--
-QtCore/qlocale.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-
 ../3rdparty/qt/include/QtGui/qicon.h
 QtCore/qglobal.h
 -
@@ -828,10 +796,6 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
--
-
-../3rdparty/qt/include/QtGui/qinputmethod.h
-QtCore/qobject.h
 -
 
 ../3rdparty/qt/include/QtGui/qkeysequence.h
@@ -1034,10 +998,6 @@ QtNetwork/qabstractsocket.h
 QtCore/qvariant.h
 -
 
-../3rdparty/qt/include/QtWidgets/QApplication
-qapplication.h
-../3rdparty/qt/include/QtWidgets/qapplication.h
-
 ../3rdparty/qt/include/QtWidgets/QFormLayout
 qformlayout.h
 ../3rdparty/qt/include/QtWidgets/qformlayout.h
@@ -1070,32 +1030,12 @@ QtGui/qkeysequence.h
 QtWidgets/qwidget.h
 -
 
-../3rdparty/qt/include/QtWidgets/qapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtWidgets/qdesktopwidget.h
--
-QtGui/qguiapplication.h
--
-
 ../3rdparty/qt/include/QtWidgets/qboxlayout.h
 QtWidgets/qlayout.h
 -
 QtWidgets/qwidget.h
 -
 limits.h
--
-
-../3rdparty/qt/include/QtWidgets/qdesktopwidget.h
-QtWidgets/qwidget.h
 -
 
 ../3rdparty/qt/include/QtWidgets/qformlayout.h
@@ -1231,14 +1171,4 @@ QWidget
 -
 URDriver.h
 /home/li/workspace/UrDriver_li/src/test/URDriver.h
-
-/home/li/workspace/UrDriver_li/src/test/test.cpp
-iostream
--
-URDriver.h
-/home/li/workspace/UrDriver_li/src/test/URDriver.h
-QApplication
--
-MainWindow.h
-/home/li/workspace/UrDriver_li/src/test/MainWindow.h
 

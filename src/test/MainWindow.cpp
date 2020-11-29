@@ -100,14 +100,15 @@ void MainWindow::signalAndSlot() {
         URDriver::getInstance()->disConnectToRobot();
     });
 //movej移动按钮
-    connect(movejBtn, &QPushButton::clicked,this, &MainWindow::movej);
-
+    connect(movejBtn, &QPushButton::clicked, this, &MainWindow::movej);
+//movej移动按钮                                                                 
+    connect(movelBtn, &QPushButton::clicked, this, &MainWindow::movel);
 }
 
 void MainWindow::setCallBack() {
 // 创建URDriver的连接接收回调函数的实例
     URDriver::getInstance()->setconnectCallBack([this] {
-         //cout << "回调函数被调用，说明已经连接上了！！" << endl;
+        //cout << "回调函数被调用，说明已经连接上了！！" << endl;
         //更新状态信息
         statusLabel->setText("已连接");
     });
@@ -120,15 +121,28 @@ void MainWindow::setCallBack() {
 }
 
 void MainWindow::movej() {
-    double joint1 = joint1Edit->text().toDouble()*DEGREETORADIUS;
-    double joint2 = joint2Edit->text().toDouble()*DEGREETORADIUS;
-    double joint3 = joint3Edit->text().toDouble()*DEGREETORADIUS;
-    double joint4 = joint4Edit->text().toDouble()*DEGREETORADIUS;
-    double joint5 = joint5Edit->text().toDouble()*DEGREETORADIUS;
-    double joint6 = joint6Edit->text().toDouble()*DEGREETORADIUS;
+    double joint1 = joint1Edit->text().toDouble() * DEGREETORADIUS;
+    double joint2 = joint2Edit->text().toDouble() * DEGREETORADIUS;
+    double joint3 = joint3Edit->text().toDouble() * DEGREETORADIUS;
+    double joint4 = joint4Edit->text().toDouble() * DEGREETORADIUS;
+    double joint5 = joint5Edit->text().toDouble() * DEGREETORADIUS;
+    double joint6 = joint6Edit->text().toDouble() * DEGREETORADIUS;
     cout << "movej按下！！！！" << endl;
-    double joints[6]={joint1,joint2,joint3,joint4,joint5,joint6};
+    double joints[6] = {joint1, joint2, joint3, joint4, joint5, joint6};
     //调用回调函数传给UR机械臂
     URDriver::getInstance()->movej(joints);
 
+}
+
+void MainWindow::movel() {
+    double x = xEdit->text().toDouble() / 1000;
+    double y = yEdit->text().toDouble() / 1000;
+    double z = zEdit->text().toDouble() / 1000;
+    double rx = rxEdit->text().toDouble();
+    double ry = ryEdit->text().toDouble();
+    double rz = rzEdit->text().toDouble();
+    cout << "movej按下！！！！" << endl;
+    double poses[6] = {x, y, z, rx, ry, rz};
+    //调用回调函数传给UR机械臂
+    URDriver::getInstance()->movel(poses);
 }
