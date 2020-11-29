@@ -67,8 +67,42 @@ src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../3rdparty/qt/include/QtCore/q
 src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../3rdparty/qt/include/QtNetwork/QTcpSocket
 src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../3rdparty/qt/include/QtNetwork/qabstractsocket.h
 src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../3rdparty/qt/include/QtNetwork/qtcpsocket.h
+src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../src/driver/URScript.h
 src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../src/driver/URDriver.cpp
 src/driver/CMakeFiles/driver.dir/URDriver.cpp.o: ../src/driver/URDriver.h
+
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/QString
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qarraydata.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qatomic.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qatomic_bootstrap.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qatomic_cxx11.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qatomic_msvc.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qbasicatomic.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qbytearray.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qchar.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qcompilerdetection.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qconfig.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qfeatures.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qflags.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qgenericatomic.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qglobal.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qglobalstatic.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qisenum.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qlogging.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qmutex.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qnamespace.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qnumeric.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qprocessordetection.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qrefcount.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qstring.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qstringbuilder.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qsysinfo.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qsystemdetection.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qtypeinfo.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qtypetraits.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../3rdparty/qt/include/QtCore/qversiontagging.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../src/driver/URScript.cpp
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o: ../src/driver/URScript.h
 
 src/driver/CMakeFiles/driver.dir/driver_autogen/mocs_compilation.cpp.o: src/driver/driver_autogen/mocs_compilation.cpp
 

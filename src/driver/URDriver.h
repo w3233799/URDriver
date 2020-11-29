@@ -11,7 +11,7 @@
 #include <memory>
 #include <functional>
 #include <QDebug>
-
+#include <URScript.h>
 using namespace std;
 
 class URDriver {
@@ -35,6 +35,9 @@ private:
     // 接收断开连接函数的对象
     function<void ()>  disConnectCallBack;// 函数指针
 
+    // 字符串拼接的工具类创建对象
+    URScript urScript;
+
 public:
 
     ~URDriver();
@@ -53,6 +56,9 @@ public:
 
     //接收断开连接状态的回调函数
     void setdisConnectCallBack(function<void ()>  disConnectCallBack);
+
+    //movej移动
+    void movej(double *joints,double a=1.2,double v=1.05);
 };
 
 

@@ -99,6 +99,8 @@ void MainWindow::signalAndSlot() {
         //调用URDriver驱动断开连接机械臂
         URDriver::getInstance()->disConnectToRobot();
     });
+//movej移动按钮
+    connect(movejBtn, &QPushButton::clicked,this, &MainWindow::movej);
 
 }
 
@@ -115,4 +117,18 @@ void MainWindow::setCallBack() {
         //更新状态信息
         statusLabel->setText("未连接");
     });
+}
+
+void MainWindow::movej() {
+    double joint1 = joint1Edit->text().toDouble()*DEGREETORADIUS;
+    double joint2 = joint2Edit->text().toDouble()*DEGREETORADIUS;
+    double joint3 = joint3Edit->text().toDouble()*DEGREETORADIUS;
+    double joint4 = joint4Edit->text().toDouble()*DEGREETORADIUS;
+    double joint5 = joint5Edit->text().toDouble()*DEGREETORADIUS;
+    double joint6 = joint6Edit->text().toDouble()*DEGREETORADIUS;
+    cout << "movej按下！！！！" << endl;
+    double joints[6]={joint1,joint2,joint3,joint4,joint5,joint6};
+    //调用回调函数传给UR机械臂
+    URDriver::getInstance()->movej(joints);
+
 }

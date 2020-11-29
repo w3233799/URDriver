@@ -11,6 +11,11 @@
 			"/home/li/workspace/UrDriver_li/src/driver/URDriver.h",
 			"MU",
 			"EWIEGA46WW/moc_URDriver.cpp"
+		],
+		[
+			"/home/li/workspace/UrDriver_li/src/driver/URScript.h",
+			"MU",
+			"EWIEGA46WW/moc_URScript.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -68,7 +73,8 @@
 	"SETTINGS_FILE" : "/home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/CMakeFiles/driver_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/li/workspace/UrDriver_li/src/driver/URDriver.cpp", "MU" ]
+		[ "/home/li/workspace/UrDriver_li/src/driver/URDriver.cpp", "MU" ],
+		[ "/home/li/workspace/UrDriver_li/src/driver/URScript.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -1205,6 +1205,12 @@ functional
 -
 QDebug
 -
+URScript.h
+-
+
+../src/driver/URScript.h
+QString
+-
 
 /home/li/workspace/UrDriver_li/src/test/MainWindow.cpp
 MainWindow.h

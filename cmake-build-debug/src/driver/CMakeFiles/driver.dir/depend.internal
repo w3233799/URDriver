@@ -68,7 +68,41 @@ src/driver/CMakeFiles/driver.dir/URDriver.cpp.o
  ../3rdparty/qt/include/QtNetwork/QTcpSocket
  ../3rdparty/qt/include/QtNetwork/qabstractsocket.h
  ../3rdparty/qt/include/QtNetwork/qtcpsocket.h
+ ../src/driver/URScript.h
  /home/li/workspace/UrDriver_li/src/driver/URDriver.cpp
  /home/li/workspace/UrDriver_li/src/driver/URDriver.h
+src/driver/CMakeFiles/driver.dir/URScript.cpp.o
+ ../3rdparty/qt/include/QtCore/QString
+ ../3rdparty/qt/include/QtCore/qarraydata.h
+ ../3rdparty/qt/include/QtCore/qatomic.h
+ ../3rdparty/qt/include/QtCore/qatomic_bootstrap.h
+ ../3rdparty/qt/include/QtCore/qatomic_cxx11.h
+ ../3rdparty/qt/include/QtCore/qatomic_msvc.h
+ ../3rdparty/qt/include/QtCore/qbasicatomic.h
+ ../3rdparty/qt/include/QtCore/qbytearray.h
+ ../3rdparty/qt/include/QtCore/qchar.h
+ ../3rdparty/qt/include/QtCore/qcompilerdetection.h
+ ../3rdparty/qt/include/QtCore/qconfig.h
+ ../3rdparty/qt/include/QtCore/qfeatures.h
+ ../3rdparty/qt/include/QtCore/qflags.h
+ ../3rdparty/qt/include/QtCore/qgenericatomic.h
+ ../3rdparty/qt/include/QtCore/qglobal.h
+ ../3rdparty/qt/include/QtCore/qglobalstatic.h
+ ../3rdparty/qt/include/QtCore/qisenum.h
+ ../3rdparty/qt/include/QtCore/qlogging.h
+ ../3rdparty/qt/include/QtCore/qmutex.h
+ ../3rdparty/qt/include/QtCore/qnamespace.h
+ ../3rdparty/qt/include/QtCore/qnumeric.h
+ ../3rdparty/qt/include/QtCore/qprocessordetection.h
+ ../3rdparty/qt/include/QtCore/qrefcount.h
+ ../3rdparty/qt/include/QtCore/qstring.h
+ ../3rdparty/qt/include/QtCore/qstringbuilder.h
+ ../3rdparty/qt/include/QtCore/qsysinfo.h
+ ../3rdparty/qt/include/QtCore/qsystemdetection.h
+ ../3rdparty/qt/include/QtCore/qtypeinfo.h
+ ../3rdparty/qt/include/QtCore/qtypetraits.h
+ ../3rdparty/qt/include/QtCore/qversiontagging.h
+ /home/li/workspace/UrDriver_li/src/driver/URScript.cpp
+ /home/li/workspace/UrDriver_li/src/driver/URScript.h
 src/driver/CMakeFiles/driver.dir/driver_autogen/mocs_compilation.cpp.o
  /home/li/workspace/UrDriver_li/cmake-build-debug/src/driver/driver_autogen/mocs_compilation.cpp

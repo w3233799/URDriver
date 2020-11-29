@@ -4,6 +4,7 @@
 
 #ifndef URDRIVERCPP_MAINWINDOW_H
 #define URDRIVERCPP_MAINWINDOW_H
+
 #include <math.h>
 #include <QLineEdit>
 #include <QLabel>
@@ -11,9 +12,10 @@
 #include <QFormLayout>
 #include <QWidget>
 #include "URDriver.h"
-class MainWindow: public QWidget {
+
+class MainWindow : public QWidget {
     //角度转弧度
-    double DEGREETORADIUS = M_PI/180;
+    double DEGREETORADIUS = M_PI / 180;
     //ip输入框
     QLineEdit *ipEdit;
     //端口输入框
@@ -48,15 +50,21 @@ class MainWindow: public QWidget {
     //movel
     QPushButton *movelBtn;
 public:
-    MainWindow(QWidget* parent = Q_NULLPTR);
+    MainWindow(QWidget *parent = Q_NULLPTR);
 
     ~MainWindow();
+
     //初始化ui界面
     void initUI();
+
     //设置机器人连接状态的回调函数
     void setCallBack();
+
     //处理信号和槽函数
     void signalAndSlot();
+
+    // movej函数
+    void movej();
 
 };
 
