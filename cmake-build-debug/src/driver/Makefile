@@ -194,6 +194,33 @@ URScript.cpp.s:
 	cd /home/li/workspace/UrDriver_li/cmake-build-debug && $(MAKE) -f src/driver/CMakeFiles/driver.dir/build.make src/driver/CMakeFiles/driver.dir/URScript.cpp.s
 .PHONY : URScript.cpp.s
 
+Utils.o: Utils.cpp.o
+
+.PHONY : Utils.o
+
+# target to build an object file
+Utils.cpp.o:
+	cd /home/li/workspace/UrDriver_li/cmake-build-debug && $(MAKE) -f src/driver/CMakeFiles/driver.dir/build.make src/driver/CMakeFiles/driver.dir/Utils.cpp.o
+.PHONY : Utils.cpp.o
+
+Utils.i: Utils.cpp.i
+
+.PHONY : Utils.i
+
+# target to preprocess a source file
+Utils.cpp.i:
+	cd /home/li/workspace/UrDriver_li/cmake-build-debug && $(MAKE) -f src/driver/CMakeFiles/driver.dir/build.make src/driver/CMakeFiles/driver.dir/Utils.cpp.i
+.PHONY : Utils.cpp.i
+
+Utils.s: Utils.cpp.s
+
+.PHONY : Utils.s
+
+# target to generate assembly for a file
+Utils.cpp.s:
+	cd /home/li/workspace/UrDriver_li/cmake-build-debug && $(MAKE) -f src/driver/CMakeFiles/driver.dir/build.make src/driver/CMakeFiles/driver.dir/Utils.cpp.s
+.PHONY : Utils.cpp.s
+
 driver_autogen/mocs_compilation.o: driver_autogen/mocs_compilation.cpp.o
 
 .PHONY : driver_autogen/mocs_compilation.o
@@ -237,6 +264,9 @@ help:
 	@echo "... URScript.o"
 	@echo "... URScript.i"
 	@echo "... URScript.s"
+	@echo "... Utils.o"
+	@echo "... Utils.i"
+	@echo "... Utils.s"
 	@echo "... driver_autogen/mocs_compilation.o"
 	@echo "... driver_autogen/mocs_compilation.i"
 	@echo "... driver_autogen/mocs_compilation.s"

@@ -230,6 +230,12 @@
 		<Unit filename="/home/li/workspace/UrDriver_li/src/driver/URScript.h">
 			<Option target="driver"/>
 		</Unit>
+		<Unit filename="/home/li/workspace/UrDriver_li/src/driver/Utils.cpp">
+			<Option target="driver"/>
+		</Unit>
+		<Unit filename="/home/li/workspace/UrDriver_li/src/driver/Utils.h">
+			<Option target="driver"/>
+		</Unit>
 		<Unit filename="/home/li/workspace/UrDriver_li/src/test/MainWindow.cpp">
 			<Option target="test"/>
 		</Unit>

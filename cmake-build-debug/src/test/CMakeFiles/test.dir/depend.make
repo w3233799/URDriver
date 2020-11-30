@@ -125,6 +125,8 @@ src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../3rdparty/qt/include/QtWidgets/
 src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../3rdparty/qt/include/QtWidgets/qwidget.h
 src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/driver/URDriver.h
 src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/driver/URScript.h
+src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/driver/Utils.h
+src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/driver/data.h
 src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/test/MainWindow.cpp
 src/test/CMakeFiles/test.dir/MainWindow.cpp.o: ../src/test/MainWindow.h
 
@@ -259,6 +261,8 @@ src/test/CMakeFiles/test.dir/test.cpp.o: ../3rdparty/qt/include/QtWidgets/qsizep
 src/test/CMakeFiles/test.dir/test.cpp.o: ../3rdparty/qt/include/QtWidgets/qwidget.h
 src/test/CMakeFiles/test.dir/test.cpp.o: ../src/driver/URDriver.h
 src/test/CMakeFiles/test.dir/test.cpp.o: ../src/driver/URScript.h
+src/test/CMakeFiles/test.dir/test.cpp.o: ../src/driver/Utils.h
+src/test/CMakeFiles/test.dir/test.cpp.o: ../src/driver/data.h
 src/test/CMakeFiles/test.dir/test.cpp.o: ../src/test/MainWindow.h
 src/test/CMakeFiles/test.dir/test.cpp.o: ../src/test/test.cpp
 

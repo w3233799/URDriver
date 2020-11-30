@@ -12,6 +12,9 @@
 #include <functional>
 #include <QDebug>
 #include <URScript.h>
+#include "data.h"
+#include "Utils.h"
+#include <queue>
 using namespace std;
 
 class URDriver {
@@ -38,6 +41,16 @@ private:
     // 字符串拼接的工具类创建对象
     URScript urScript;
 
+    //保存当前状态
+//    double Program_state=0;
+    //保存指令队列
+    queue<Instruction> instructionQueue;
+    //目标指令
+    Instruction targetInstruction;
+    //是否第一次
+    bool isFirst = true;
+
+
 public:
 
     ~URDriver();
@@ -62,6 +75,15 @@ public:
 
     //movel移动
     void movel(double *poses,double a=1.25,double v=0.25);
+
+    void parseRobotData(QByteArray &data, URData &urData);
+
+    //决定是否执行下一条指令
+    void decideExcuteNextInstruction(URData &urData);
+    //执行指令
+    void excuteNextInstruction();
+    //更新指令
+    void updateTargetInstruction(Instruction &instruction);
 };
 
 

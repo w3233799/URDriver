@@ -10,10 +10,6 @@
 qdebug.h
 ../3rdparty/qt/include/QtCore/qdebug.h
 
-../3rdparty/qt/include/QtCore/QString
-qstring.h
-../3rdparty/qt/include/QtCore/qstring.h
-
 ../3rdparty/qt/include/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
@@ -612,53 +608,19 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
-../3rdparty/qt/include/QtNetwork/QTcpSocket
-qtcpsocket.h
-../3rdparty/qt/include/QtNetwork/qtcpsocket.h
-
-../3rdparty/qt/include/QtNetwork/qabstractsocket.h
-QtCore/qiodevice.h
+/home/li/workspace/UrDriver_li/src/driver/Utils.cpp
+Utils.h
+/home/li/workspace/UrDriver_li/src/driver/Utils.h
+math.h
 -
-QtCore/qobject.h
--
-QtCore/qdebug.h
+memory.h
 -
 
-../3rdparty/qt/include/QtNetwork/qtcpsocket.h
-QtNetwork/qabstractsocket.h
--
-QtCore/qvariant.h
--
-
-../src/driver/URScript.h
-QString
--
-
-/home/li/workspace/UrDriver_li/src/driver/URDriver.cpp
-URDriver.h
-/home/li/workspace/UrDriver_li/src/driver/URDriver.h
-
-/home/li/workspace/UrDriver_li/src/driver/URDriver.h
-iostream
--
-QString
--
-QTcpSocket
--
-memory
--
-functional
--
+/home/li/workspace/UrDriver_li/src/driver/Utils.h
+data.h
+/home/li/workspace/UrDriver_li/src/driver/data.h
 QDebug
 -
-URScript.h
--
 
-/home/li/workspace/UrDriver_li/src/driver/URScript.cpp
-URScript.h
-/home/li/workspace/UrDriver_li/src/driver/URScript.h
-
-/home/li/workspace/UrDriver_li/src/driver/URScript.h
-QString
--
+/home/li/workspace/UrDriver_li/src/driver/data.h
 

@@ -25,7 +25,7 @@ QString URScript::loadMovejScript(double *joints, double a, double v) {
     data += QString::number(a);
     data += ", v=";
     data += QString::number(v);
-    data += ", t=0, r=0)";
+    data += ", t=0, r=0)\n";
     return data;
 }
 
@@ -42,6 +42,6 @@ QString URScript::loadMovelScript(double *poses, double a, double v) {
     data += QString::number(a);
     data += ", v=";
     data += QString::number(v);
-    data += ", t=0, r=0)";
+    data += ", t=0, r=0)\n";
     return data;
 }

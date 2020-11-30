@@ -22,7 +22,7 @@ void MainWindow::initUI() {
     //布局
     QFormLayout *layout = new QFormLayout;
     //ip输入框
-    ipEdit = new QLineEdit("192.168.0.102");
+    ipEdit = new QLineEdit("192.168.36.40");
     //端口输入框
     portEdit = new QLineEdit("30003");
 
@@ -34,9 +34,9 @@ void MainWindow::initUI() {
     disConnectBtn = new QPushButton("断开连接");
 
     //movej的每一个关节输入
-    joint1Edit = new QLineEdit("-144.98");
-    joint2Edit = new QLineEdit("-97.67");
-    joint3Edit = new QLineEdit("-102.98");
+    joint1Edit = new QLineEdit("-74.98");
+    joint2Edit = new QLineEdit("-89.40");
+    joint3Edit = new QLineEdit("-78.055");
     joint4Edit = new QLineEdit("-68.95");
     joint5Edit = new QLineEdit("83.07");
     joint6Edit = new QLineEdit("58.15");
@@ -45,12 +45,12 @@ void MainWindow::initUI() {
     movejBtn = new QPushButton("moveJ");
 
     //movel输入
-    xEdit = new QLineEdit("-54.16");
-    yEdit = new QLineEdit("-324.52");
-    zEdit = new QLineEdit("183.76");
-    rxEdit = new QLineEdit("3.1225");
-    ryEdit = new QLineEdit("0.5556");
-    rzEdit = new QLineEdit("0.2693");
+    xEdit = new QLineEdit("-337.01");
+    yEdit = new QLineEdit("-73.24");
+    zEdit = new QLineEdit("152.02");
+    rxEdit = new QLineEdit("3.0668");
+    ryEdit = new QLineEdit("1.1172");
+    rzEdit = new QLineEdit("-0.1319");
 
     //movel
     movelBtn = new QPushButton("moveL");
@@ -103,6 +103,8 @@ void MainWindow::signalAndSlot() {
     connect(movejBtn, &QPushButton::clicked, this, &MainWindow::movej);
 //movej移动按钮                                                                 
     connect(movelBtn, &QPushButton::clicked, this, &MainWindow::movel);
+
+
 }
 
 void MainWindow::setCallBack() {
@@ -118,6 +120,8 @@ void MainWindow::setCallBack() {
         //更新状态信息
         statusLabel->setText("未连接");
     });
+
+
 }
 
 void MainWindow::movej() {

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "driver_autogen"
   "CMakeFiles/driver.dir/URDriver.cpp.o"
   "CMakeFiles/driver.dir/URScript.cpp.o"
+  "CMakeFiles/driver.dir/Utils.cpp.o"
   "CMakeFiles/driver.dir/driver_autogen/mocs_compilation.cpp.o"
 )
 

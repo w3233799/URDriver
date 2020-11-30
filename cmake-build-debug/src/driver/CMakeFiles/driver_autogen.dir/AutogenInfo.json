@@ -16,6 +16,11 @@
 			"/home/li/workspace/UrDriver_li/src/driver/URScript.h",
 			"MU",
 			"EWIEGA46WW/moc_URScript.cpp"
+		],
+		[
+			"/home/li/workspace/UrDriver_li/src/driver/Utils.h",
+			"MU",
+			"EWIEGA46WW/moc_Utils.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -74,7 +79,8 @@
 	"SOURCES" : 
 	[
 		[ "/home/li/workspace/UrDriver_li/src/driver/URDriver.cpp", "MU" ],
-		[ "/home/li/workspace/UrDriver_li/src/driver/URScript.cpp", "MU" ]
+		[ "/home/li/workspace/UrDriver_li/src/driver/URScript.cpp", "MU" ],
+		[ "/home/li/workspace/UrDriver_li/src/driver/Utils.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
